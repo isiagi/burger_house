@@ -1,0 +1,51 @@
+.wrapper{
+    background-image:url('../images/banner.png');
+    min-height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    flex-wrap: wrap;
+    transition: 0.6s ease-in-out;
+    z-index: 1;
+}
+
+.nav__list{
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.nav__list > li {
+    width: 150px;
+    list-style: none;
+}
+
+.nav__list > li > a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo > img{
+    width: 100px;
+}
+
+.nav__list > li :hover{
+    background-color:red;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.home__section{
+    position: absolute;
+   top: 230px;
+   left: 50px;
+}

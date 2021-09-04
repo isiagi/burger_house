@@ -1,0 +1,30 @@
+.events{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 90vh;
+    flex-wrap: wrap;
+}
+
+.events > .event__detail > h2 {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.events > .event__detail > p {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.events > .event__detail > button {
+    background-color: rgb(241, 72, 72);
+    padding: 15px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}

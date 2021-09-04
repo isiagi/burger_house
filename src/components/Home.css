@@ -1,0 +1,25 @@
+.home__details{
+    font-size: 25px;
+}
+
+.home__details > h2{
+    font-size: 50px !important;
+}
+
+.home__details > h2 > span {
+    text-decoration: underline;
+    color: rgb(241, 72, 72);
+}
+
+.home__details > h4{
+    font-size: 35px !important;
+}
+
+.home__details > button{
+    background-color: rgb(241, 72, 72);
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px;
+}

@@ -1,0 +1,39 @@
+.book{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/footer.png');
+}
+
+.book > h2 {
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+form {
+    display:flex ;
+    flex-direction: column;
+}
+
+form > input, textarea {
+     width: 600px;
+     padding: 20px;
+     outline: none;
+     margin-bottom: 20px;
+     background-color: rgb(44, 43, 43);
+     border-radius: 5px;
+     color: white;
+     font-size: 15px;
+ }
+
+ form > button {
+    background-color: rgb(241, 72, 72);
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+ }
