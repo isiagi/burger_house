@@ -1,4 +1,5 @@
 import React from 'react'
+import about from '../images/about.png'
 import './Event.css'
 
 export default function Events() {
@@ -11,7 +12,7 @@ export default function Events() {
                 <button>Read More</button>
                </div>
                <div className="event__image">
-                <img src="/images/about.png" alt="" width="600px"/>
+                <img src={about} alt="" width="600px"/>
                </div>
            </div> 
         </>

@@ -1,4 +1,6 @@
 import React from 'react'
+import s1 from '../images/s1.png'
+import s2 from '../images/s2.png'
 import './Enjoy.css'
 
 function Enjoy() {
@@ -12,7 +14,7 @@ function Enjoy() {
            <div className="card__wrapper">
            <div className="card__container">
                 <div className="card__image">
-                    <img src="/images/s1.png" alt="" height="270px"/>
+                    <img src={s1} alt="" height="270px"/>
                 </div>
                 <div className="card__text">
                     <h4>Luger Burger</h4>
@@ -23,7 +25,7 @@ function Enjoy() {
            </div>
            <div className="card__container">
                 <div className="card__image">
-                    <img src="/images/s2.png" alt="" height="270px"/>
+                    <img src={s2} alt="" height="270px"/>
                 </div>
                 <div className="card__text">
                     <h4>Luger Burger</h4>
@@ -34,7 +36,7 @@ function Enjoy() {
            </div>
            <div className="card__container">
                 <div className="card__image">
-                    <img src="/images/s2.png" alt="" height="270px"/>
+                    <img src={s2} alt="" height="270px"/>
                 </div>
                 <div className="card__text">
                     <h4>Luger Burger</h4>

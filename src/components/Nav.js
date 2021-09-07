@@ -1,4 +1,5 @@
 import React from 'react'
+import logo1 from '../images/logo1.png'
 import './Nav.css'
 
 export default function Nav() {
@@ -7,7 +8,7 @@ export default function Nav() {
         <div className="wrapper">
            <nav>
                <div className="logo">
-                   <img src="/images/logo1.png" alt="logo" />
+                   <img src={logo1} alt="logo" />
                </div>
                <div>
                     <ul className="nav__list">
